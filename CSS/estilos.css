@@ -1,0 +1,188 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background: gray;
+	color: white;
+}
+
+
+#contenedor {
+	width: 960px;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+}
+
+header{
+	height: 100px;
+	background: white;
+}
+
+header h1 {
+	font-size: 40px;
+	text-align: right;
+	line-height: 130px;
+}
+
+/* menu */
+
+#menu ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+
+}
+
+/* items del menu */
+
+#menu ul li {
+ background-color:#F0B429;
+ float: left;
+ position: relative
+}
+
+/* enlaces del menu */
+
+#menu ul a {
+ display:block;
+ color:#fff;
+ text-align: center;
+ text-decoration:none;
+ font:bold 20px flan;
+ font-size:15px;
+ padding:14px 52px;
+ font-family: 'Franklin Gothic Heavy', arial;
+ text-transform:uppercase;
+ letter-spacing:1px;
+ text-shadow: 4px 4px 4px #aaa;
+}
+
+/* items del menu */
+
+#menu ul li {
+ position:relative;
+ float:left;
+ margin:0;
+ padding:0;
+
+}
+
+/* efecto al pasar el ratón por los items del menu */
+
+#menu ul li:hover:not(.active) {
+ background:#f2d679;
+}
+
+/* menu desplegable */
+
+#menu ul ul {
+ display:none;
+ position:absolute;
+ top:100%;
+ left:0;
+ background:#F0B429;
+ padding:20px;
+}
+
+/* items del menu desplegable */
+
+#menu ul ul li {
+ float:none;
+ width:150px
+}
+
+/* enlaces de los items del menu desplegable */
+
+#menu ul ul a {
+ line-height:100%;
+ padding:14px 14px;
+}
+
+/* items del menu desplegable al pasar el ratón */
+
+#menu ul li:hover > ul {
+ display:block;
+}
+
+#contenido {
+	width: 700px;
+	height: 500px;
+	float: left;
+	background: #005883;
+	margin-right: 10px;
+}
+
+#contenido {
+	font-size: 20px;
+	text-align: center;
+	line-height: 500px;
+	color: white;
+	line-height: 30px;
+	font-family: 'Franklin Gothic Heavy', arial;
+}
+
+
+aside {
+	width: 250px;
+	height: 500px;
+	background: #005883;
+	margin-top: 0;
+	float: right;
+}
+
+aside h2 {
+	font-size: 40px;
+	text-align: center;
+	line-height: 500px;
+}
+
+
+footer{
+	position: relative;
+	background: #F0B429;
+	margin-top: 500;
+}
+
+footer h2 {
+	font-size: 20px;
+	text-align: center;
+	font-family: 'Franklin Gothic Heavy', arial;
+    font-size: 20px;
+    text-shadow: 2px 2px 2px #aaa;
+    line-height: 20px;
+    
+}
+#contenido2{
+	border-style:solid;
+}
+
+}
+#Sello{
+	border-style:solid;
+	font-size: 20px;
+    text-shadow: 4px 4px 4px #aaa;
+    line-height: 20px;
+
+}
+
+iframe{
+	position: relative;
+	left:300px;
+}
+/*#video2 {
+	position: relative;
+	float: center;
+	/*left:0px;
+	top:0px;
+	right:0px;*/
+
+
+
+
+
+
